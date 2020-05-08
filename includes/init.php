@@ -1,7 +1,7 @@
 <?php
 // include composer autoloader (make sure you run `composer install`!)
 if ( is_readable( __DIR__ . '/vendor/autoload.php' ) {
-  require_once WDS_SHORTCODES_DIR . 'vendor/autoload.php'
+  require_once WDS_SHORTCODES_DIR . 'vendor/autoload.php';
 }
 
 /**
