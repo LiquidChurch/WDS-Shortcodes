@@ -30,8 +30,7 @@
     },
     "autoload": {
         "classmap": [
-            "wds-shortcodes.php",
-            "includes/"
+            "wds-shortcodes.php"
             ]
     },
     "minimum-stability": "dev"
