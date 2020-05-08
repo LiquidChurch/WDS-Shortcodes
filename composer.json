@@ -22,5 +22,11 @@
         "jtsternberg/shortcode-button": "^1.0.7",
         "tgmpa/tgm-plugin-activation": "^2.6.1"
     },
+    "autoload": {
+        "classmap": [
+            "wds-shortcodes.php",
+            "includes/"
+            ]
+    },
     "minimum-stability": "dev"
 }
