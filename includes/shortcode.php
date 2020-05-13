@@ -48,10 +48,11 @@ class WDS_Shortcode {
 	 * @param string $content   Parsed content for shortcode.
 	 */
 	public function __construct( $shortcode, $atts, $content ) {
-		$this->shortcode = $shortcode;
-		$this->atts      = $atts;
-		$this->content = $this->pre_content = $content;
-	}
+		$this->shortcode   = $shortcode;
+		$this->atts        = $atts;
+        $this->pre_content = $content;
+        $this->content     = $this->pre_content;
+    }
 
 	/**
 	 * Attribute-getter with a default fallback option.
