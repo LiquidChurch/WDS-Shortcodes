@@ -18,15 +18,9 @@
         "source": "https://github.com/WebDevStudios/WDS-Shortcodes"
     },
     "require": {
-        "php": ">5.2",
-        "jtsternberg/shortcode-button": "dev-master",
-        "tgmpa/tgm-plugin-activation": "^2.6.1"
+        "php": ">5.2"
     },
     "autoload": {
-        "classmap": [
-            "wds-shortcodes.php",
-            "includes/"
-            ]
     },
     "minimum-stability": "dev"
 }
